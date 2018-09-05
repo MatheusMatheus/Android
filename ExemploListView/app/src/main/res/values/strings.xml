@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ExemploListView</string>
+    <string-array name="arrayCarros">
+        <item>Uno</item>
+        <item>Palio</item>
+        <item>Gol</item>
+        <item>Celta</item>
+        <item>Tesla</item>
+        <item>Opala</item>
+        <item>Maverick</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uc17201124.exemplolistview.SegundaActivity">
+
+
+    <TextView
+        android:id="@+id/fabricante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="100px"/>
+
+    <TextView
+        android:id="@+id/modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="100px"
+        android:layout_below="@+id/fabricante"/>
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/modelo"/>
+</RelativeLayout>
