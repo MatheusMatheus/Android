@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
 
+import com.example.uc17201124.gridviewapplication.AtivarAcao;
 import com.example.uc17201124.gridviewapplication.R;
 
 import org.w3c.dom.Text;
@@ -20,21 +21,21 @@ import java.util.List;
 
 public class TextAdapter extends BaseAdapter {
     private Activity activity;
-    private String[] itens;
+    List<AtivarAcao> itens;
 
-    public TextAdapter(Activity activity, String[] itens) {
+    public TextAdapter(Activity activity, List<AtivarAcao> itens) {
         this.activity = activity;
         this.itens = itens;
     }
 
     @Override
     public int getCount() {
-        return this.itens.length;
+        return this.itens.size();
     }
 
     @Override
     public Object getItem(int i) {
-        return itens[i];
+        return itens.get(i);
     }
 
     @Override
@@ -46,7 +47,7 @@ public class TextAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
 
         TextView text = new TextView(this.activity);
-        text.setText(itens[i]);
+        text.setText(itens.get(i).getTexto());
 
         text.setGravity(Gravity.CENTER);
 
