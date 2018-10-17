@@ -11,12 +11,16 @@
         android:id="@+id/menuPri"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/menuPri"/>
+        android:text="@string/menuPri"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 
     <TextView
         android:id="@+id/txtSair"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/sair"/>
+        android:text="@string/sair"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 
 </LinearLayout>

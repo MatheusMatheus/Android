@@ -14,4 +14,11 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
 
+    <Button
+        android:id="@+id/btnProsseguir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:layout_below="@+id/bemVindo"/>
+
 </RelativeLayout>
