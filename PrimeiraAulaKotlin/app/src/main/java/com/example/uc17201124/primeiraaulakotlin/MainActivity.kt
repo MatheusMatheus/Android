@@ -23,6 +23,7 @@ class MainActivity : Activity() {
 
         btnOk.setOnClickListener {
             var mensagens: Array<Mensagem>
+            
             val que = Volley.newRequestQueue(this@MainActivity)
             val req = StringRequest(
                     Request.Method.GET,
